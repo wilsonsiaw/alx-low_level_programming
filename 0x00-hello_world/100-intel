@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc 7-main.c -S -masm=intel -o 7-main.s
+gcc $CFILE -S -masm=intel -o 100-main.s
